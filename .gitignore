@@ -1,0 +1,17 @@
+# vendored binary dependency, installed with pip
+.pylibs/
+
+# derived artefacts: value-function arrays, tens of MB each and regenerable
+results/*.npy
+results/*.npz
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
